@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.container h6 {
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.form h2 {
+    color: hsl(0, 94%, 66%);
+}
+
+input {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 150%;
+    border-radius: 4px;
+   
+}
+
+input:focus {
+    outline: 0
+}
+
+.bottom {
+    margin-left: -120px;
+}
+
+
+.top h5{
+    margin-bottom: -10px;
+}
+.top h1 {
+    color: hsl(0, 94%, 66%);
+    font-weight: 900;
+}
+
+button{
+    width: 150%;
+    padding: 10px;
+    background-color:  hsl(0, 94%, 66%);
+    color: white;
+    border-radius: 5px;
+}
+
+button:focus{
+    outline: 0;
+}
+.form-control {
+    position: relative;
+}
+.form-control.success input {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color:  #e74373;
+}
+
+.form-control small {
+    color:  #e74373;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+footer p {
+    font-size: 8px;
+    text-align: center;
+}
+
+#zakat {
+    width: 250px
+}
+
+@media screen and (max-width: 600px) {
+  
+  .top h1 {
+    margin-top: 50px;
+  }
+  .container {
+    width: 400px
+  }
+  input {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 120%;
+    border-radius: 4px;
+}
+  
+  
+  footer {
+    margin-bottom: 100px;
+  }
+  
+  button{
+    width: 120%
+  }
+ 
